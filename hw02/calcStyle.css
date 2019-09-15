@@ -1,0 +1,14 @@
+input{
+    border-color: brown;
+    padding: 5px;
+    width: 225px;
+    color: black;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    border: solid;
+    width: 55px;
+}

@@ -1,0 +1,26 @@
+
+
+#s1 {
+    color: brown;
+}
+
+#s2 {
+    color: #669999;
+}
+
+#s3 {
+    color: pink;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+
+th {
+    width: 50px;
+}
+
