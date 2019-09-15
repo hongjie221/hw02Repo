@@ -1,0 +1,51 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+   Hongjie Li
+
+2. What hostname did you deploy to?
+   hw02, animal, calculator.
+   1. hw02.lilydevelop.com
+   2. animal.lilydevelop.com
+   3. calculator.lilydevelop.com
+
+3. What's the link to your repository on github with your code?
+   1. link to the html, css and js code
+      https://github.com/hongjie221/hw02Repo/tree/master/hw02
+   2. link to the config files
+      https://github.com/hongjie221/hw02Repo/tree/master/config_files
+
+4. How many HTML / CSS tutorial exercises did you do?
+   HTML 130
+   CSS  200
+
+5. How comfortable do you feel with HTML and CSS now?
+   I understand HTML pretty well, but I am not a master of it. I still need      	to look up for some tags. I will give myself 8/10. I barely know CSS 		before I take the class, and CSS is really new to me. I still need to 		look up format and keyword when writng CSS codes. I will give myself 		6/10.
+   
+6. How many JS tutorial exercises did you do?
+   160
+
+7. How comfortable do you feel with JS now?
+   I am new to JS, but it is not very different from other programming     	   languages. I'll give my self 7/10.
+
+8. Do all of your HTML pages pass the W3C HTML validator?
+(https://validator.w3.org/)
+    Yes
+   
+9. Which parts of this assignment did you have trouble with, if any?
+   I met some question when I trid tricky operations on calcutor, and the
+   debug process is a lot of work.
+
+
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
