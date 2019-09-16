@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="calcStyle.css">
-    <script src="jscode.js"></script>
+    
 </head>
 <body>
     <p>A link to learn JS <a href="https://www.w3schools.com/js/">Learn JavaScript</a></p>
@@ -14,34 +14,35 @@
             <td colspan="4"><input type="text" id="screenId" disabled=""></td>
         </tr>
         <tr>
-            <td><button id="7" onclick="clickNum(7)">7</button></td>
-            <td><button id="8" onclick="clickNum(8)">8</button></td>
-            <td><button id="9" onclick="clickNum(9)">9</button></td>
-            <td><button id="+=" onclick="clickPlus('+')">+/=</button></td>
+            <td><button id="b7" class="num">7</button></td>
+            <td><button id="8" class="num">8</button></td>
+            <td><button id="9" class="num">9</button></td>
+            <td><button id="+=" class="op">+/=</button></td>
         </tr>
 
         <tr>
-            <td><button id="4" onclick="clickNum(4)">4</button></td>
-            <td><button id="5" onclick="clickNum(5)">5</button></td>
-            <td><button id="6" onclick="clickNum(6)">6</button></td>
-            <td><button id="-" onclick="clickPlus('-')">-</button></td>
+            <td><button id="4" class="num">4</button></td>
+            <td><button id="5" class="num">5</button></td>
+            <td><button id="6" class="num">6</button></td>
+            <td><button id="-" class="op">-</button></td>
         </tr>
 
         <tr>
-            <td><button id="1" onclick="clickNum(1)">1</button></td>
-            <td><button id="2" onclick="clickNum(2)">2</button></td>
-            <td><button id="3" onclick="clickNum(3)">3</button></td>
-            <td><button id="x" onclick="clickPlus('*')">x</button></td>
+            <td><button id="1" class="num">1</button></td>
+            <td><button id="2" class="num">2</button></td>
+            <td><button id="3" class="num">3</button></td>
+            <td><button id="x" class="op">x</button></td>
         </tr>
 
         <tr>
             <td><button id="C" onclick="clickClear()">C</button></td>
-            <td><button id="0" onclick="clickNum(0)">0</button></td>
-            <td><button id="." onclick="clickNum('.')">.</button></td>
-            <td><button id="÷" onclick="clickPlus('/')">÷</button></td>
+            <td><button id="0" class="num">0</button></td>
+            <td><button id="." class="num">.</button></td>
+            <td><button id="÷" class="op">÷</button></td>
         </tr>
 
     </table>
 
+    <script src="jscode.js"></script>
 </body>
 </html>
