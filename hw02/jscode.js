@@ -1,4 +1,5 @@
-
+(function () {
+    "use strict";
 var numOfNum = 0;
 var numOfOper = 0;
 var cleanScreen = false;
@@ -72,3 +73,7 @@ function clickClear() {
     firstNum = "0";
     secondNum = "0";
 }
+
+window.addEventListener("load", init, false);
+
+})();
