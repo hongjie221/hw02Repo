@@ -4,7 +4,7 @@ server {
 
         root /home/lily/www/hw02;
 
-        index calculator.html;
+        index calc.html;
 
         server_name calculator.lilydevelop.com;
 
