@@ -1,14 +1,33 @@
-(function(){
+(function() {
     "use strict";
     var numOfNum = 0;
     var numOfOper = 0;
     var cleanScreen = false;
     var typedNumber = false;
     var currentOperator;
-    firstNum = "0";
-    secondNum = "0";
+    var firstNum = "0";
+    var secondNum = "0";
+
+    function init() {
+        var b7 = document.getElementsByClassName("num");
+        b7 = Array.from(b7);
+        for (var i = 0; i < b7.length; ++i) {
+            b7[i].addEventListener('click', clickNum);
+        }
+
+        var op = document.getElementsByClassName("op");
+        op = Array.from(op);
+        for (var j = 0; j < op.length; ++j) {
+            op[j].addEventListener("click", clickPlus);
+        }
+
+        var clearButton = document.getElementById("C");
+        clearButton.addEventListener("click", clickClear);
+        // b7.addEventListener("click", clickNum(7));
+    }
 
     function clickNum(num) {
+        num = num.target.innerText;
         typedNumber = true;
         if (cleanScreen) {
             document.getElementById("screenId").value="";
@@ -24,6 +43,7 @@
     }
 
     function clickPlus(op) {
+        op = op.target.innerText;
         if (!typedNumber) {
             currentOperator = op;  
         }
@@ -39,7 +59,7 @@
                 let y = parseFloat(secondNum);
                 var z;
                 switch(currentOperator) {
-                    case '+' :
+                    case '+/=' :
                         z = x + y;
                         document.getElementById("screenId").value = z;
                         break;
@@ -47,11 +67,11 @@
                         z = x - y;
                         document.getElementById("screenId").value = z;
                         break;
-                    case '*' :
+                    case 'x' :
                         z = x * y;
                         document.getElementById("screenId").value = z;
                         break;
-                    case '/' :
+                    case '÷' :
                         z = x / y;
                         document.getElementById("screenId").value = z;
                         break;
