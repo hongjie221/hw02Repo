@@ -1,6 +1,6 @@
 (function(){
-	"use strict";
-	var numOfNum = 0;
+    "use strict";
+    var numOfNum = 0;
     var numOfOper = 0;
     var cleanScreen = false;
     var typedNumber = false;
