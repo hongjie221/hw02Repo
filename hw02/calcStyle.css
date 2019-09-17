@@ -1,8 +1,18 @@
+div {
+	border-color: black;
+	background-color: black;
+	border: solid;
+	width: 245px;
+	border-width: 5px;
+}
+
 input{
     border-color: brown;
     padding: 5px;
     width: 225px;
+    height: 25px;
     color: black;
+    text-align: right;
 }
 
 button{
@@ -11,4 +21,6 @@ button{
     font-size: 20px;
     border: solid;
     width: 55px;
+    height: 70px;
 }
+
