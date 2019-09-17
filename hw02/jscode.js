@@ -23,6 +23,7 @@
 
         var clearButton = document.getElementById("C");
         clearButton.addEventListener("click", clickClear);
+	clickClear();
         // b7.addEventListener("click", clickNum(7));
     }
 
